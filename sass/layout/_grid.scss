@@ -1,10 +1,7 @@
 .row {
   max-width: $grid-width;
-<<<<<<< HEAD
   background-color: #eee;
-=======
 
->>>>>>> df93685 (fixed local and progress 10.26.2025)
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -14,10 +11,8 @@
   @include clearFix;
 
   [class^="col-"] {
-<<<<<<< HEAD
     background-color: orange;
-=======
->>>>>>> df93685 (fixed local and progress 10.26.2025)
+
     float: left;
 
     &:not(:last-child) {
