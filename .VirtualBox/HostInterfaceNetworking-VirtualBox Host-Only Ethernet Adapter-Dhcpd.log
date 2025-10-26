@@ -1,0 +1,26 @@
+00:00:00.009057 VirtualBox DHCP Server 7.2.2 r170484 win.amd64 (Sep 10 2025 19:54:13) release log
+00:00:00.009059 Log opened 2025-10-09T13:23:34.123949900Z
+00:00:00.009059 Build Type: release
+00:00:00.009062 OS Product: Windows 11
+00:00:00.009172 OS Release: 10.0.26100.6584
+00:00:00.009173 OS Service Pack: 
+00:00:00.165635 DMI Product Name: X870E AORUS ELITE WIFI7
+00:00:00.174621 DMI Product Version: Default string-CF-WCP-ADO
+00:00:00.174625 Firmware type: UEFI
+00:00:00.174937 Secure Boot: Disabled
+00:00:00.174953 Host RAM: 32372MB (31.6GB) total, 17430MB (17.0GB) available
+00:00:00.174956 Executable: C:\Program Files\Oracle\VirtualBox\VBoxNetDHCP.exe
+00:00:00.174956 Process ID: 20780
+00:00:00.174957 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.174957 Windows Features:
+00:00:00.174957   Core Isolation (Memory Integrity): ENABLED
+00:00:00.175058 --config:  HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.175065 --comment: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.274429 IP address:   192.168.56.100/24
+00:00:00.274444 Address pool: 192.168.56.101 - 192.168.56.254
+00:00:00.274469 MAC address is not specified: will use generated MAC 08:00:27:90:46:48
+00:00:00.274478 Db::i_enterFixedAddressAssignment: 08:00:27:90:46:48: 192.168.56.100
+00:00:00.274482 loading leases from C:\Users\Andrei\.VirtualBox\HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter-Dhcpd.leases
+00:00:00.278430 > LOAD: EXPIRED lease 192.168.56.154 to [01:08:00:27:33:4b:c8] (08:00:27:33:4b:c8), expired, valid from 2025-10-08T11:38:12Z for 600s until 2025-10-08T11:48:12Z
+00:00:00.309358 SUP: Opened VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX loaded by the native ring-0 loader.
+00:00:00.309372 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
