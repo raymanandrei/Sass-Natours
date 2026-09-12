@@ -1,24 +1,26 @@
-@import "abstracts/functions.scss";
-@import "abstracts/mixins.scss";
-@import "abstracts/variables";
+@use "icon-font.css";
 
-@import "base/animation";
-@import "base/base";
-@import "base/typography";
-@import "base/utilities.scss";
+@use "abstracts/functions.scss";
+@use "abstracts/mixins.scss";
+@use "abstracts/variables";
 
-@import "components/form";
-@import "components/bg-video";
-@import "components/story";
-@import "components/card";
-@import "components/feature-box";
-@import "components/composition";
-@import "components/button";
-@import "components/popup";
+@use "base/animation";
+@use "base/base";
+@use "base/typography";
+@use "base/utilities.scss";
 
-@import "layout/navigation";
-@import "layout/grid";
-@import "layout/header";
-@import "layout/footer";
+@use "components/form";
+@use "components/bg-video";
+@use "components/story";
+@use "components/card";
+@use "components/feature-box";
+@use "components/composition";
+@use "components/button";
+@use "components/popup";
 
-@import "pages/home";
+@use "layout/navigation";
+@use "layout/grid";
+@use "layout/header";
+@use "layout/footer";
+
+@use "pages/home";
